@@ -1,6 +1,6 @@
 {
   "name": "npm-auto-translate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Translates all the json files with using Yandex Translator in the given path and  saves translated files to target location with the same structure   ",
   "main": "index.js",
   "scripts": {
