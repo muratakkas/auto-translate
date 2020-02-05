@@ -59,13 +59,13 @@ function translateFile(translatorOptions,fileInfo, targetlanguage, targetPath) {
 
         //Check if file doesnt exist create from translated content
         if (!fs.existsSync(newFileFullPath))
-          fs.writeFileSync(newFileFullPath, JSON.stringify(contentObject));
+          fs.writeFileSync(newFileFullPath, JSON.stringify(contentObject,null,2));
         else {
           //If file exist compare file content and modify file for the missing translates
           const oldFileContent = fs.readFileSync(newFileFullPath);
           const sourceFileObject = JSON.parse(oldFileContent);
           mergeFileContents(sourceFileObject, contentObject);
-          fs.writeFileSync(newFileFullPath, JSON.stringify(sourceFileObject));
+          fs.writeFileSync(newFileFullPath, JSON.stringify(sourceFileObject,null,2));
         }
 
       });
