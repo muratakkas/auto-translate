@@ -1,0 +1,26 @@
+{
+  "name": "npm-auto-translate",
+  "version": "1.0.1",
+  "description": "Translates all the json files with using Yandex Translator in the given path and  saves translated files to target location with the same structure   ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muratakkas/auto-translate.git"
+  },
+  "keywords": [
+    "auto",
+    "translate"
+  ],
+  "author": "Murat Akkas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muratakkas/auto-translate/issues"
+  },
+  "homepage": "https://github.com/muratakkas/auto-translate#readme",
+  "dependencies": {
+    "yandex-translate": "^2.1.3"
+  }
+}
