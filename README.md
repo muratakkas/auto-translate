@@ -34,10 +34,11 @@ autoTranslate.translatePath(translatorOptions, "/Users/muratakkas/Projects/src/l
  
 ## Notes
 
-If you run this command again for the same folder it will automatically update for the missing keys
-If you have some formatting symbols in your files like {{name}}, this package automatically search for {{}} and doesn't send the formattings keys to the translator
-This should not be used in production environment some of formatting words location should be different in another language 
-If you have lots of hierarchical documents to create localization files for the different language, this package can help for the start point
+* If you run this command again for the same folder it will automatically update for the missing keys
+* If you have some formatting symbols in your files like {{name}}, this package automatically search for {{}} and doesn't send the formattings keys to the translator
+* This should not be used in production environment some of formatting words location should be different in another language 
+* If you have lots of hierarchical documents to create localization files for the different language, this package can help for the start point
+* All contributions are welcome
 
  
 ## License
