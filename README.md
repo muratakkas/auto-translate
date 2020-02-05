@@ -14,10 +14,11 @@ $ npm i npm-auto-translate --save
 
 translatePath parameters 
 
-* First parameter is  translator service options
-* Second parameters is the root folder path of localization json files
-* Trhird parameters is which language you want to translate to
-* Last parameter is the path where you  translated files will be saved
+* The first parameter is translator service options
+* The second parameter is the root folder path of localization json files
+* The third parameter is which language you want to translate to
+* The last parameter is the path where you translated files will be saved
+
 
 ```
  
