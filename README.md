@@ -12,18 +12,14 @@ $ npm i npm-auto-translate --save
 
 ## Usage
 
-```
-
-
 translatePath parameters : 
 First parameter is  translator service options
 Second parameters is the root folder path of localization json files
 Trhird parameters is which language you want to translate to
 Last parameter is where you  translated files will be saved
 
-Note : 
-
-
+```
+ 
 var autoTranslate = require('npm-auto-translate');
 let translatorOptions = {
     name: "yandex",
